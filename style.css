@@ -1,0 +1,109 @@
+.vbar1{
+	width:10px;
+	height: 450px;
+	position: absolute;
+	background-color: #000;
+	left: 150px;
+	z-index: 5;
+}
+.vbar2{
+	width:10px;
+	height: 450px;
+	position: absolute;
+	background-color: #000;
+	left: 300px;
+	z-index: 5;
+}
+.hbar1{
+	width:450px;
+	height: 10px;
+	position: absolute;
+	background-color: #000;
+	top: 150px;
+	z-index: 5;
+}
+.hbar2{
+	width:450px;
+	height: 10px;
+	position: absolute;
+	background-color: #000;
+	top: 300px;
+	z-index: 5;
+}
+
+.box0{
+	position: absolute;
+	height: 140px;
+	width: 140px;
+	background-color: red;
+}
+.box1{
+	position: absolute;
+	height: 140px;
+	width: 136px;
+	background-color: red;
+	left: 162px;
+	
+}
+.box2{
+	position: absolute;
+	height: 140px;
+	width: 146px;
+	background-color: red;
+	left: 312px;
+}
+.box3{
+	position: absolute;
+	height: 136px;
+	width: 140px;
+	background-color: red;
+	top:162px;
+}
+.box4{
+	position: absolute;
+	height: 136px;
+	width: 136px;
+	background-color: red;
+	top:162px;
+	left:162px;
+}
+.box5{
+	position: absolute;
+	height: 136px;
+	width: 146px;
+	background-color: red;
+	left: 312px;
+	top:162px;
+}
+.box6{
+	position: absolute;
+	height: 146px;
+	width: 140px;
+	background-color: red;
+	top:312px;
+}
+.box7{
+	position: absolute;
+	height: 146px;
+	width: 136px;
+	background-color: red;
+	top:312px;
+	left: 162px;
+}
+.box8{
+	position: absolute;
+	height: 146px;
+	width: 146px;
+	background-color: red;
+	top: 312px;
+	left: 312px;
+}
+.obama{
+	background-image: url("obama.jpg");
+}
+.kanye{
+	background-image: url("kanye.jpg");
+}
+  
+
+
