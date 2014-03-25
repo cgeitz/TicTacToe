@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.box1').click(function(){
+	$('.item').click(function(){
 		$(this).addClass('obama');
 	});
 });

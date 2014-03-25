@@ -1,3 +1,8 @@
+.container{
+height: 450px;
+width:450px;
+border: 5px solid black;
+}
 .vbar1{
 	width:10px;
 	height: 450px;
