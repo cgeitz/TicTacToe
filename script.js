@@ -28,9 +28,6 @@ $(document).ready(function(){
 		if($(this).hasClass('kanye')){
 			choices[2]=true;
 			};
-		if(choices[0]==true && choices[1]==true && choices[2]==true){
-			alert("kanye wins!");
-			};
 	});
 
 	$('.box3').dblclick(function(){
@@ -75,10 +72,33 @@ $(document).ready(function(){
 			};
 	});
 
-
+$('.container').mousemove(function(){
 		if(choices[0]===true && choices[1]===true && choices[2]===true){
 			alert("kanye wins!");
-			};
+		};
+		if(choices[0]===true && choices[3]===true && choices[6]===true){
+			alert("kanye wins!");
+		};
+		if(choices[0]===true && choices[4]===true && choices[8]===true){
+			alert("kanye wins!");
+		};
+		if(choices[1]===true && choices[4]===true && choices[7]===true){
+			alert("kanye wins!");
+		};
+		if(choices[2]===true && choices[5]===true && choices[8]===true){
+			alert("kanye wins!");
+		};
+		if(choices[3]===true && choices[4]===true && choices[5]===true){
+			alert("kanye wins!");
+		};
+		if(choices[6]===true && choices[7]===true && choices[8]===true){
+			alert("kanye wins!");
+		};
+		if(choices[2]===true && choices[4]===true && choices[6]===true){
+			alert("kanye wins!");
+		};
+	});	
+		
 });
 
 
