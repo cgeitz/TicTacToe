@@ -1,107 +1,122 @@
+html{
+background-image: url("background.jpg");
+background-size: cover;
+}
 .container{
-	height:460px;
-	width:460px;
-	left:400px;
+	height:100%;
+	width:100%;
+	z-index: 10;
+	
 }
 .vbar1{
 	width:10px;
 	height: 450px;
 	position: absolute;
 	background-color: #000;
-	left: 150px;
+	left: 550px;
 	z-index: 5;
+	top:150px;
 }
 .vbar2{
 	width:10px;
 	height: 450px;
 	position: absolute;
 	background-color: #000;
-	left: 300px;
+	left: 700px;
 	z-index: 5;
+	top:150px;
 }
 .hbar1{
-	width:450px;
-	height: 10px;
-	position: absolute;
-	background-color: #000;
-	top: 150px;
-	z-index: 5;
-}
-.hbar2{
-	width:450px;
+	width:458px;
 	height: 10px;
 	position: absolute;
 	background-color: #000;
 	top: 300px;
 	z-index: 5;
+	left:400px;
+}
+.hbar2{
+	width:458px;
+	height: 10px;
+	position: absolute;
+	background-color: #000;
+	top: 450px;
+	z-index: 5;
+	left: 400px;
 }
 
 .box0{
 	position: absolute;
-	height: 140px;
-	width: 140px;
+	height: 148px;
+	width: 148px;
 	background-color: red;
+	left:400px;
+	top:150px;
 }
 .box1{
 	position: absolute;
-	height: 140px;
+	height: 148px;
 	width: 136px;
 	background-color: red;
-	left: 162px;
+	left: 562px;
+	top: 150px;
 	
 }
 .box2{
 	position: absolute;
-	height: 140px;
+	height: 148px;
 	width: 146px;
 	background-color: red;
-	left: 312px;
+	left: 712px;
+	top: 150px;
 }
 .box3{
 	position: absolute;
 	height: 136px;
-	width: 140px;
+	width: 148px;
 	background-color: red;
-	top:162px;
+	top:312px;
+	left:400px;
 }
 .box4{
 	position: absolute;
 	height: 136px;
 	width: 136px;
 	background-color: red;
-	top:162px;
-	left:162px;
+	top:312px;
+	left:562px;
 }
 .box5{
 	position: absolute;
 	height: 136px;
 	width: 146px;
 	background-color: red;
-	left: 312px;
-	top:162px;
+	left: 712px;
+	top:312px;
 }
 .box6{
 	position: absolute;
-	height: 146px;
-	width: 140px;
+	height: 138px;
+	width: 148px;
 	background-color: red;
-	top:312px;
+	top:462px;
+	left: 400px;
 }
 .box7{
 	position: absolute;
-	height: 146px;
+	height: 138px;
 	width: 136px;
 	background-color: red;
-	top:312px;
-	left: 162px;
+	top:462px;
+	left: 562px;
 }
 .box8{
 	position: absolute;
-	height: 146px;
+	height: 138px;
 	width: 146px;
 	background-color: red;
-	top: 312px;
-	left: 312px;
+	top: 462px;
+	left: 712px;
 }
 .obama{
 	background-image: url("obama.jpg");

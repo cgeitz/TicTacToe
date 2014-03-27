@@ -132,7 +132,7 @@ $(document).ready(function(){
 			};
 	});
 
-$('.container').mousemove(function(){
+$('.container').dblclick(function(){
 		if(choices[0]===true && choices[1]===true && choices[2]===true){
 			alert("Kanye wins!");
 		};
